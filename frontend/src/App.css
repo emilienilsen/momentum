@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+.primary-color {
+    background-color: #ddf9ff;
+}
+
+.icon-color {
+    color: midnightblue;
+}

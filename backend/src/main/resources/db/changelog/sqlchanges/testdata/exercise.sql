@@ -1,0 +1,15 @@
+INSERT INTO exercise (id, name, description) VALUES ('ea8f924a-5c9f-41c6-a8da-fb63f9d7b05b', 'Squat', 'A lower-body exercise targeting quadriceps, hamstrings, and glutes.');
+INSERT INTO exercise (id, name, description) VALUES ('ab3d7c2e-81f7-40d4-a543-6cde9b1a5238', 'Deadlift', 'A full-body strength exercise focusing on posterior chain muscles.');
+INSERT INTO exercise (id, name, description) VALUES ('f2b759a0-d35a-4b2a-b739-a3f4e6c8d8b3', 'Bench Press', 'Targets the chest, shoulders, and triceps with a pressing movement.');
+INSERT INTO exercise (id, name, description) VALUES ('79e4f2d1-87a8-4a1d-9347-99fba1c3f90a', 'Pull-up', 'An upper-body exercise engaging the back and arms by lifting oneself.');
+INSERT INTO exercise (id, name, description) VALUES ('d6c1e9f5-32a5-48b0-832d-a813f49b72de', 'Lunges', 'Strengthens legs and glutes with unilateral movement.');
+INSERT INTO exercise (id, name, description) VALUES ('3b92f014-c4f8-470d-975a-1f824c6b2e90', 'Plank', 'Core stability exercise focusing on endurance and strength.');
+INSERT INTO exercise (id, name, description) VALUES ('6f3a2d57-e815-4123-b9f8-639b6a517d8f', 'Russian Twists', 'A rotational core exercise improving oblique strength.');
+INSERT INTO exercise (id, name, description) VALUES ('2147e593-6c7d-42bc-b1f4-8d25f6278e37', 'Burpees', 'A full-body, high-intensity cardio movement for endurance.');
+INSERT INTO exercise (id, name, description) VALUES ('f89123ad-4b56-4e0c-832a-e64b71d9c542', 'Jump Rope', 'Cardio exercise improving coordination and stamina.');
+INSERT INTO exercise (id, name, description) VALUES ('2d0745c3-b618-4a29-a1cf-7b964ef8e892', 'Leg Press', 'Machine-based lower-body exercise emphasizing quadriceps.');
+INSERT INTO exercise (id, name, description) VALUES ('8e3f72b9-6741-4fc2-8051-cd8912f3b89b', 'Dumbbell Shoulder Press', 'Strengthens shoulders through pressing motion.');
+INSERT INTO exercise (id, name, description) VALUES ('4c2a9e73-7f85-4d67-83ea-9fb362c1d63a', 'Box Jumps', 'Plyometric exercise enhancing explosive power.');
+INSERT INTO exercise (id, name, description) VALUES ('de7b8192-5fcb-42e6-963f-27c3af58d72e', 'Kettlebell Swings', 'Full-body dynamic movement emphasizing posterior chain.');
+INSERT INTO exercise (id, name, description) VALUES ('b7d1f68a-39e3-42fb-a95d-57c83f62b3a8', 'Mountain Climbers', 'Cardio core exercise simulating running in plank position.');
+INSERT INTO exercise (id, name, description) VALUES ('a4f52c69-8e2d-4b73-9c6a-e47c2d951b42', 'Leg Raises', 'Core exercise focusing on lower abdominal strength.');

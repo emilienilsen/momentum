@@ -1,0 +1,10 @@
+databaseChangeLog:
+  - changeSet:
+      id: create_tables
+      author: Emilie
+      changes:
+        - sqlFile:
+            path: 'sqlchanges/init.sql'
+            relativeToChangelogFile: true
+
+# Her inne endres database tabellene
