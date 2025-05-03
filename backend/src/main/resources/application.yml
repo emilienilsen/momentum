@@ -11,5 +11,6 @@ spring:
   liquibase:
     change-log: classpath:db/changelog/master_changelog.yml
     drop-first: true #Toggle on if you want to rebuild the database.
-
+server:
+  port: 8080
 

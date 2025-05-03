@@ -27,7 +27,7 @@ export function AccountSettings() {
             </div>
             <div className="pt-15">
                 <div className="flex-col mt-2 flex items-center justify-center">
-                    <img src='frontend/public/momentum_logo.svg' className="ml-2 w-1/5" alt='Logo'></img>
+                    <img src='../../public/momentum_logo.svg' className="ml-2 w-1/5" alt='Logo'></img>
                     <p className="font-semibold">Emilie Nilsen</p>
                     <p className="text-xs">Member since April 2025</p>
                 </div>
