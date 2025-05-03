@@ -5,14 +5,14 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     environment:
-      - PORT=8080
+      - PORT=80
 
   frontend:
     build:
       context: ./frontend
       dockerfile: Dockerfile
     environment:
-      - PORT=3000
+      - PORT=80
 
   database:
     image: postgres:17-alpine
