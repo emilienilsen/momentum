@@ -9,7 +9,7 @@ export function TopBar() {
                 <div className="flex p-2 py-3 justify-between">
                     <div className="flex items-center">
                         {/*<Menu className="mx-3"></Menu>*/}
-                        <img src='../public/momentum_logo.svg' className=" size-7 mr-2" alt='Logo'></img>
+                        <img src='/momentum_logo.svg' className=" size-7 mr-2" alt='Logo'></img>
                         <h1 className="text-xl">Momentum</h1>
                     </div>
                     <Link to={"/profile"}>
