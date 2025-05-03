@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://database:5432/momentum
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASSWORD}
+    driver-class-name: org.postgresql.Driver
+  application:
+    name: momentum
+
+
+  liquibase:
+    change-log: classpath:db/changelog/master_changelog.yml
+    drop-first: false #Toggle on if you want to rebuild the database.
+server:
+  port: 8080
+
