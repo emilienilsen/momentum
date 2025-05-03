@@ -4,8 +4,6 @@ services:
     build:
       context: ./backend
       dockerfile: Dockerfile
-    environment:
-      - PORT=80
 
   frontend:
     build:
