@@ -13,3 +13,9 @@ spring:
     drop-first: false #Toggle on if you want to rebuild the database.
 server:
   port: 80
+
+services:
+  postgres:
+    image: postgres:latest
+    volumes:
+      - ./backend/config/postgresql.conf:/etc/postgresql/postgresql.conf
