@@ -13,8 +13,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/database")
-@CrossOrigin(origins = "http://localhost:5173") // Allow requests from React
+@RequestMapping("/api/database")
 public class Databasecontroller {
     // To populate the database.
 
