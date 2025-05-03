@@ -6,5 +6,5 @@ RUN mvn clean package -DskipTests
 FROM openjdk:21-slim-buster
 WORKDIR /app
 COPY --from=build /app/target/*.jar app.jar
-EXPOSE 8080
+EXPOSE 80
 CMD ["java", "-jar", "app.jar"]
